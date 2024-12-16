@@ -6004,6 +6004,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 37.592 25.146)
+		(size 34.798 19.812)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6122270c-aaa6-4a22-bb6f-62f76c94a913")
+		(property "Sheetname" "RAM"
+			(at 37.592 24.4344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ram.kicad_sch"
+			(at 37.592 45.5426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Laser-500"
+				(path "/c1a6b1ae-77c2-4767-93cc-3749547878e9"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

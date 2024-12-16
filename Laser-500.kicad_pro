@@ -236,7 +236,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Laser500"
+    ]
   },
   "meta": {
     "filename": "Laser-500.kicad_pro",
@@ -386,6 +388,10 @@
     [
       "c1a6b1ae-77c2-4767-93cc-3749547878e9",
       "Root"
+    ],
+    [
+      "6122270c-aaa6-4a22-bb6f-62f76c94a913",
+      "RAM"
     ]
   ],
   "text_variables": {}
