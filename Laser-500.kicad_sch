@@ -25,6 +25,44 @@
 		(uuid "226f92de-72dd-431b-96f0-09e8977fe11d")
 	)
 	(sheet
+		(at 58.42 118.11)
+		(size 53.34 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24780461-4769-419d-b9c8-ec723033e769")
+		(property "Sheetname" "Clock Reset"
+			(at 58.42 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 58.42 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Laser-500"
+				(path "/c1a6b1ae-77c2-4767-93cc-3749547878e9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 37.592 25.146)
 		(size 34.798 19.812)
 		(fields_autoplaced yes)

@@ -592,6 +592,10 @@
     [
       "8859e5dc-f590-4271-a1d5-ff92c9741b95",
       "Video Cassette Port"
+    ],
+    [
+      "24780461-4769-419d-b9c8-ec723033e769",
+      "Clock Reset"
     ]
   ],
   "text_variables": {}

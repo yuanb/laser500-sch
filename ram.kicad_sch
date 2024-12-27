@@ -5269,7 +5269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aeffb25-ea9d-4539-9ae4-3d41ea6c668f")
-		(property "Reference" "U4"
+		(property "Reference" "U14"
 			(at 144.018 72.136 0)
 			(effects
 				(font
@@ -5363,7 +5363,7 @@
 		(instances
 			(project "Laser-500"
 				(path "/c1a6b1ae-77c2-4767-93cc-3749547878e9/6122270c-aaa6-4a22-bb6f-62f76c94a913"
-					(reference "U4")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -5445,7 +5445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "557f9b8c-1a42-4f20-bb4a-235508447175")
-		(property "Reference" "U1"
+		(property "Reference" "U11"
 			(at 51.816 72.136 0)
 			(effects
 				(font
@@ -5539,7 +5539,7 @@
 		(instances
 			(project ""
 				(path "/c1a6b1ae-77c2-4767-93cc-3749547878e9/6122270c-aaa6-4a22-bb6f-62f76c94a913"
-					(reference "U1")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -5621,7 +5621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6624f620-4a21-47a8-9aa8-7e93688e3d3f")
-		(property "Reference" "U5"
+		(property "Reference" "U15"
 			(at 174.244 72.136 0)
 			(effects
 				(font
@@ -5715,7 +5715,7 @@
 		(instances
 			(project "Laser-500"
 				(path "/c1a6b1ae-77c2-4767-93cc-3749547878e9/6122270c-aaa6-4a22-bb6f-62f76c94a913"
-					(reference "U5")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -5927,7 +5927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "914b92fe-cd12-4b84-8758-848863cb17d6")
-		(property "Reference" "U8"
+		(property "Reference" "U18"
 			(at 266.954 72.39 0)
 			(effects
 				(font
@@ -6021,7 +6021,7 @@
 		(instances
 			(project "Laser-500"
 				(path "/c1a6b1ae-77c2-4767-93cc-3749547878e9/6122270c-aaa6-4a22-bb6f-62f76c94a913"
-					(reference "U8")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -6102,7 +6102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98c0338b-2ea8-43f1-8785-f24a42045806")
-		(property "Reference" "U2"
+		(property "Reference" "U12"
 			(at 82.804 72.136 0)
 			(effects
 				(font
@@ -6196,7 +6196,7 @@
 		(instances
 			(project "Laser-500"
 				(path "/c1a6b1ae-77c2-4767-93cc-3749547878e9/6122270c-aaa6-4a22-bb6f-62f76c94a913"
-					(reference "U2")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -6212,7 +6212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a60b8f5-925e-4e24-8e4d-27cae0f7db67")
-		(property "Reference" "U6"
+		(property "Reference" "U16"
 			(at 205.232 72.136 0)
 			(effects
 				(font
@@ -6306,7 +6306,7 @@
 		(instances
 			(project "Laser-500"
 				(path "/c1a6b1ae-77c2-4767-93cc-3749547878e9/6122270c-aaa6-4a22-bb6f-62f76c94a913"
-					(reference "U6")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -6520,7 +6520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7fe4551-8585-435b-95d8-0102dbeec76e")
-		(property "Reference" "U3"
+		(property "Reference" "U13"
 			(at 113.284 72.136 0)
 			(effects
 				(font
@@ -6614,7 +6614,7 @@
 		(instances
 			(project "Laser-500"
 				(path "/c1a6b1ae-77c2-4767-93cc-3749547878e9/6122270c-aaa6-4a22-bb6f-62f76c94a913"
-					(reference "U3")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -6956,7 +6956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdf11edf-7701-483d-b1f4-e7cae3834d86")
-		(property "Reference" "U7"
+		(property "Reference" "U17"
 			(at 235.966 72.39 0)
 			(effects
 				(font
@@ -7050,7 +7050,7 @@
 		(instances
 			(project "Laser-500"
 				(path "/c1a6b1ae-77c2-4767-93cc-3749547878e9/6122270c-aaa6-4a22-bb6f-62f76c94a913"
-					(reference "U7")
+					(reference "U17")
 					(unit 1)
 				)
 			)
