@@ -1190,6 +1190,15 @@
 		(uuid "6d25e15e-4abd-4e3e-b01f-5649696047fe")
 	)
 	(bus_entry
+		(at 36.576 91.694)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ec9b3a-f1d9-4f1a-bf55-25948d0d47c5")
+	)
+	(bus_entry
 		(at 90.678 51.816)
 		(size 2.54 2.54)
 		(stroke
@@ -1251,15 +1260,6 @@
 			(type default)
 		)
 		(uuid "9b8f4a62-9b31-46e3-b0fc-4071d6eb979f")
-	)
-	(bus_entry
-		(at 36.576 91.694)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a08986b2-b94e-4d83-8903-7ea4614b158e")
 	)
 	(bus_entry
 		(at 36.576 86.614)
@@ -2339,16 +2339,6 @@
 	)
 	(bus
 		(pts
-			(xy 36.576 91.694) (xy 36.576 89.154)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fdf7816-8850-498d-92d0-b1164c398b1e")
-	)
-	(bus
-		(pts
 			(xy 128.778 94.234) (xy 128.778 91.694)
 		)
 		(stroke
@@ -3037,6 +3027,16 @@
 		)
 		(uuid "7a7747e6-820f-44af-b7e1-f63aa1d24c4e")
 	)
+	(bus
+		(pts
+			(xy 36.576 91.694) (xy 36.576 94.234)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c41e1fe-b558-4cc0-9764-45f443837fd1")
+	)
 	(wire
 		(pts
 			(xy 122.174 81.534) (xy 123.698 81.534)
@@ -3286,6 +3286,16 @@
 			(type default)
 		)
 		(uuid "98b8286b-b2b6-496a-b25b-43de618a6947")
+	)
+	(wire
+		(pts
+			(xy 39.116 94.234) (xy 42.926 94.234)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c0d909-34b2-4295-b42a-27ed1d3636c3")
 	)
 	(wire
 		(pts
@@ -3837,16 +3847,6 @@
 		)
 		(uuid "d27837bb-82f3-4f7e-9e14-9a2f5daa27f9")
 	)
-	(wire
-		(pts
-			(xy 39.116 94.234) (xy 42.926 94.234)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2e5a0ab-c4c4-4ed3-9346-d60afb6a4c36")
-	)
 	(bus
 		(pts
 			(xy 128.778 78.994) (xy 128.778 76.454)
@@ -4209,7 +4209,7 @@
 	)
 	(bus
 		(pts
-			(xy 36.576 94.234) (xy 36.576 91.694)
+			(xy 36.576 89.154) (xy 36.576 91.694)
 		)
 		(stroke
 			(width 0)
@@ -4885,17 +4885,6 @@
 		)
 		(uuid "aeb75e41-2490-4cc6-a259-6cd04e7548d0")
 	)
-	(label "MA1"
-		(at 39.116 94.234 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b09175cf-6072-416b-8f39-48115fa2d898")
-	)
 	(label "MA5"
 		(at 70.104 84.074 0)
 		(fields_autoplaced yes)
@@ -5126,6 +5115,17 @@
 			(justify left bottom)
 		)
 		(uuid "ef35a3f7-a771-4a3f-acb4-9d58e994b09b")
+	)
+	(label "MA1"
+		(at 39.116 94.234 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6e4e71c-6651-483f-b456-7b27f1466851")
 	)
 	(label "MA4"
 		(at 100.584 86.614 0)

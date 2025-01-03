@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(text_box "TODO:\n1. Check footprints and packages.\n2. Verify all the nets/buses"
 		(exclude_from_sim no)
-		(at 201.676 80.518 0)
+		(at 212.09 106.68 0)
 		(size 66.548 48.768)
 		(stroke
 			(width 0)
@@ -25,7 +25,7 @@
 		(uuid "226f92de-72dd-431b-96f0-09e8977fe11d")
 	)
 	(sheet
-		(at 58.42 118.11)
+		(at 38.1 93.98)
 		(size 53.34 24.13)
 		(fields_autoplaced yes)
 		(stroke
@@ -37,7 +37,7 @@
 		)
 		(uuid "24780461-4769-419d-b9c8-ec723033e769")
 		(property "Sheetname" "Clock Reset"
-			(at 58.42 117.3984 0)
+			(at 38.1 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,7 +46,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 58.42 142.8246 0)
+			(at 38.1 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58,6 +58,44 @@
 			(project "Laser-500"
 				(path "/c1a6b1ae-77c2-4767-93cc-3749547878e9"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 125.73)
+		(size 55.88 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "408f0784-a88d-40ab-8780-b4fd4419c6a5")
+		(property "Sheetname" "Jumpers"
+			(at 38.1 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jumpers.kicad_sch"
+			(at 38.1 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Laser-500"
+				(path "/c1a6b1ae-77c2-4767-93cc-3749547878e9"
+					(page "6")
 				)
 			)
 		)
@@ -101,7 +139,7 @@
 		)
 	)
 	(sheet
-		(at 56.388 80.01)
+		(at 37.338 59.69)
 		(size 39.37 20.574)
 		(fields_autoplaced yes)
 		(stroke
@@ -113,7 +151,7 @@
 		)
 		(uuid "8859e5dc-f590-4271-a1d5-ff92c9741b95")
 		(property "Sheetname" "Video Cassette Port"
-			(at 56.388 79.2984 0)
+			(at 37.338 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,7 +160,7 @@
 			)
 		)
 		(property "Sheetfile" "video_casette.kicad_sch"
-			(at 56.388 101.1686 0)
+			(at 37.338 80.8486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -139,7 +177,7 @@
 		)
 	)
 	(sheet
-		(at 168.402 27.686)
+		(at 112.522 22.606)
 		(size 39.37 19.812)
 		(fields_autoplaced yes)
 		(stroke
@@ -151,7 +189,7 @@
 		)
 		(uuid "f9690aae-74b6-4c7d-a01b-51dcb981f67f")
 		(property "Sheetname" "Main Circuit"
-			(at 168.402 26.9744 0)
+			(at 112.522 21.8944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160,7 +198,7 @@
 			)
 		)
 		(property "Sheetfile" "cpu_main.kicad_sch"
-			(at 168.402 48.0826 0)
+			(at 112.522 43.0026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
