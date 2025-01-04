@@ -1,2 +1,2 @@
 # laser500-sch
-Recreate of Laser 500 schematics
+Recreate the Laser 500 schematics in KiCAD, staying as close as possible to the diagrams in the original technical manual.
