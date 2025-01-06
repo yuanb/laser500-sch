@@ -5149,51 +5149,7 @@
 		)
 		(uuid "fe537661-963c-417f-923c-8932902dd491")
 	)
-	(global_label "~{RAS}"
-		(shape input)
-		(at 23.114 110.744 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0af0759a-1932-4651-bcf6-01c193666881")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.5607 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{RAMW}"
-		(shape input)
-		(at 24.892 116.332 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "20770659-06b0-4b4b-8f1d-ba7a0b59b7fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.6454 116.332 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{CAS}"
+	(hierarchical_label "~{CAS}"
 		(shape input)
 		(at 23.114 123.444 180)
 		(fields_autoplaced yes)
@@ -5203,19 +5159,9 @@
 			)
 			(justify right)
 		)
-		(uuid "78f1ceac-0420-4e50-9c61-1f71ecac85c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.5607 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "16f01a7a-d72d-4e8a-b77f-7964116e0a3f")
 	)
-	(global_label "MA[0..7]"
+	(hierarchical_label "MA[0..7]"
 		(shape input)
 		(at 27.432 60.452 180)
 		(fields_autoplaced yes)
@@ -5225,20 +5171,22 @@
 			)
 			(justify right)
 		)
-		(uuid "ce7e2b09-3213-4bae-b96a-eb5f9e8689d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.5848 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "41275f79-0581-40b6-8d3f-a858101879cf")
 	)
-	(global_label "RD[0..7]"
+	(hierarchical_label "~{RAMW}"
 		(shape input)
+		(at 24.892 116.332 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "662e9deb-73e8-45ea-80d7-1ab07c177b90")
+	)
+	(hierarchical_label "RD[0..7]"
+		(shape bidirectional)
 		(at 27.432 51.816 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5247,17 +5195,19 @@
 			)
 			(justify right)
 		)
-		(uuid "fa1d972f-c549-4d9e-bff7-0c89f36f8ab8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.5848 51.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "8ffbca78-b303-40bc-8775-0946a9232777")
+	)
+	(hierarchical_label "~{RAS}"
+		(shape input)
+		(at 23.114 110.744 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "f796d642-5f6f-4499-b0af-d3bbaa12f6d3")
 	)
 	(symbol
 		(lib_id "Laser500:DRAM4164")

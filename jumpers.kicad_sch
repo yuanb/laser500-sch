@@ -1017,28 +1017,6 @@
 			)
 		)
 	)
-	(global_label "J2:~{TOPBK}"
-		(shape input)
-		(at 96.52 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6646c4e8-de6e-4d32-8c1f-c64f882e0907")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.3952 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "J2:~{RFSH}"
 		(shape input)
 		(at 97.79 64.77 0)
@@ -1060,6 +1038,114 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "D2"
+		(shape bidirectional)
+		(at 93.98 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10caffb9-5e92-4d8b-895f-5fb571010a38")
+	)
+	(hierarchical_label "D4"
+		(shape bidirectional)
+		(at 93.98 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17336d7e-923c-4aa1-9631-359612032ddd")
+	)
+	(hierarchical_label "D5"
+		(shape bidirectional)
+		(at 93.98 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cd9e7d7-7195-43ed-adf2-6e259ff504cf")
+	)
+	(hierarchical_label "D3"
+		(shape bidirectional)
+		(at 93.98 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5515c281-679c-4acb-b36f-5f339b4ad29f")
+	)
+	(hierarchical_label "D0"
+		(shape bidirectional)
+		(at 93.98 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64032f2a-c892-4c99-81a8-f9684b359dd2")
+	)
+	(hierarchical_label "D7"
+		(shape bidirectional)
+		(at 93.98 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4e71801-973d-47b3-8c56-0205b39bb9c0")
+	)
+	(hierarchical_label "D1"
+		(shape bidirectional)
+		(at 93.98 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cedf7045-b300-4f09-84e7-593dbec16550")
+	)
+	(hierarchical_label "D6"
+		(shape bidirectional)
+		(at 93.98 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d10715f4-63fe-4913-a994-eb96df695054")
+	)
+	(hierarchical_label "J2:~{TOPBK}"
+		(shape input)
+		(at 96.52 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fde67bfa-4250-49bb-9c6f-c6c9f01f4284")
 	)
 	(symbol
 		(lib_id "Laser500:J2")
