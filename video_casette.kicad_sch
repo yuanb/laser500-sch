@@ -1274,6 +1274,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 111.76) (xy 41.91 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3196251f-6f8a-40aa-a509-17dac1a57bcf")
+	)
+	(wire
+		(pts
 			(xy 76.2 34.798) (xy 72.136 34.798)
 		)
 		(stroke
@@ -1742,94 +1752,6 @@
 		)
 		(uuid "c5075dfe-e84a-4628-b758-bb6f5f2d4b6c")
 	)
-	(global_label "~{VSYNC}"
-		(shape input)
-		(at 23.114 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3df035f5-ccb5-4569-ab04-a5d2ccf94c8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.1416 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CHROMA"
-		(shape input)
-		(at 60.198 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "53db6dab-4234-4ced-8045-e4cbae088f6c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.4718 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{HSYNC}"
-		(shape input)
-		(at 23.114 56.134 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd96c279-fad0-4fa8-a038-3a966c1e2d70")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.8997 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CBUST"
-		(shape input)
-		(at 60.198 34.798 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f593c5f2-d71f-449b-9f54-de578ba39736")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.1652 34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Y"
 		(shape input)
 		(at 141.224 55.626 0)
@@ -1876,6 +1798,30 @@
 		)
 		(uuid "36b082ee-6c54-4773-bb11-f84304487d9c")
 	)
+	(hierarchical_label "~{HSYNC}"
+		(shape input)
+		(at 23.114 56.134 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "390fa4fa-c192-492c-9be0-8b88c4c2d4f7")
+	)
+	(hierarchical_label "~{VSYNC}"
+		(shape input)
+		(at 23.114 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52a85d44-7f4c-44a7-8032-ddd5d3373117")
+	)
 	(hierarchical_label "G"
 		(shape input)
 		(at 60.452 57.404 180)
@@ -1899,6 +1845,42 @@
 			(justify right)
 		)
 		(uuid "796b2853-0bc2-49e2-bd8b-c897d3c5ebeb")
+	)
+	(hierarchical_label "CHROMA"
+		(shape input)
+		(at 60.198 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfe1e17f-00db-42ed-970e-c3f1f0973569")
+	)
+	(hierarchical_label "CASOUT"
+		(shape input)
+		(at 34.29 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db46c59c-4a7a-4d50-8872-d536a9db0bd5")
+	)
+	(hierarchical_label "CBUST"
+		(shape input)
+		(at 60.198 34.798 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1ef3133-373b-41a7-b78f-fedbcc1f7ff8")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -3086,6 +3068,74 @@
 			(project "Laser-500"
 				(path "/c1a6b1ae-77c2-4767-93cc-3749547878e9/8859e5dc-f590-4271-a1d5-ff92c9741b95"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 45.72 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d12fc40-fe73-4ed4-96a8-2f5a61331d73")
+		(property "Reference" "R??"
+			(at 45.72 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 45.72 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 45.466 112.776 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3db163c-87ab-405c-9949-bbda479cbba4")
+		)
+		(pin "2"
+			(uuid "1d335f41-9057-446e-b65c-d4c1fbf28d8c")
+		)
+		(instances
+			(project "Laser-500"
+				(path "/c1a6b1ae-77c2-4767-93cc-3749547878e9/8859e5dc-f590-4271-a1d5-ff92c9741b95"
+					(reference "R??")
 					(unit 1)
 				)
 			)

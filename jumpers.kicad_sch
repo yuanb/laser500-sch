@@ -146,7 +146,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 7.62 24.13 180)
 					(length 3.81)
 					(name "D2"
@@ -164,7 +164,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 7.62 21.59 180)
 					(length 3.81)
 					(name "D7"
@@ -488,7 +488,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 7.62 -19.05 180)
 					(length 3.81)
 					(name "D4"
@@ -506,7 +506,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 7.62 -21.59 180)
 					(length 3.81)
 					(name "D3"
@@ -524,7 +524,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 7.62 -24.13 180)
 					(length 3.81)
 					(name "D5"
@@ -542,7 +542,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 7.62 -26.67 180)
 					(length 3.81)
 					(name "D6"
@@ -596,7 +596,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 7.62 -34.29 180)
 					(length 3.81)
 					(name "D0"
@@ -614,7 +614,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 7.62 -36.83 180)
 					(length 3.81)
 					(name "D1"
@@ -951,28 +951,6 @@
 			)
 		)
 	)
-	(global_label "J2:~{HALT}"
-		(shape input)
-		(at 96.52 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "484d4c32-8b8c-4cca-b7e9-75657c811410")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.7019 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "J2:BA16"
 		(shape input)
 		(at 96.52 133.35 0)
@@ -986,50 +964,6 @@
 		(uuid "584aa4c5-1772-4cda-ad54-1a60c3d49d96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 107.0647 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "J2:~{M1}"
-		(shape input)
-		(at 97.79 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "661ab6f0-1a51-40ab-80a8-e16467980d96")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.218 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "J2:~{RFSH}"
-		(shape input)
-		(at 97.79 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7651a19e-dd9d-479e-8f8c-67a0a22c2d3e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.4557 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,6 +1009,18 @@
 		)
 		(uuid "2cd9e7d7-7195-43ed-adf2-6e259ff504cf")
 	)
+	(hierarchical_label "J2:~{HALT}"
+		(shape output)
+		(at 96.52 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38274673-9b1f-4e19-b18f-f1b1165061ee")
+	)
 	(hierarchical_label "D3"
 		(shape bidirectional)
 		(at 93.98 105.41 0)
@@ -1098,6 +1044,18 @@
 			(justify left)
 		)
 		(uuid "64032f2a-c892-4c99-81a8-f9684b359dd2")
+	)
+	(hierarchical_label "J2:~{M1}"
+		(shape output)
+		(at 97.79 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "805327ad-e652-45c3-aea6-2e20d67be36f")
 	)
 	(hierarchical_label "D7"
 		(shape bidirectional)
@@ -1135,8 +1093,20 @@
 		)
 		(uuid "d10715f4-63fe-4913-a994-eb96df695054")
 	)
+	(hierarchical_label "J2:~{RFSH}"
+		(shape output)
+		(at 97.79 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecd38122-15e9-4328-a1ba-7d6808371d80")
+	)
 	(hierarchical_label "J2:~{TOPBK}"
-		(shape input)
+		(shape output)
 		(at 96.52 113.03 0)
 		(fields_autoplaced yes)
 		(effects

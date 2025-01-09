@@ -5459,7 +5459,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -17.78 -36.83 0)
 					(length 3.81)
 					(name "~{IO}"
@@ -5513,7 +5513,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -17.78 -39.37 0)
 					(length 3.81)
 					(name "~{WAIT}"
@@ -5531,7 +5531,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -17.78 -52.07 0)
 					(length 3.81)
 					(name "CPUCK"
@@ -5549,7 +5549,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -17.78 -49.53 0)
 					(length 3.81)
 					(name "~{RD}"
@@ -5567,7 +5567,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -17.78 -46.99 0)
 					(length 3.81)
 					(name "~{WR}"
@@ -5603,7 +5603,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -17.78 -41.91 0)
 					(length 3.81)
 					(name "~{MREQ}"
@@ -5621,7 +5621,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -17.78 -44.45 0)
 					(length 3.81)
 					(name "~{IORQ}"
@@ -9327,6 +9327,16 @@
 			(type default)
 		)
 		(uuid "240213ed-821b-45db-bcff-db521f89cf28")
+	)
+	(wire
+		(pts
+			(xy 25.4 46.99) (xy 27.94 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2445db2b-c09e-4b05-ada3-510a3323acec")
 	)
 	(bus
 		(pts
@@ -13586,6 +13596,16 @@
 		)
 		(uuid "26efc03e-8daf-44cd-88af-5736f6b758a9")
 	)
+	(text "Address MUX"
+		(exclude_from_sim no)
+		(at 119.38 31.75 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "650a0900-47c4-4822-8aed-1a7a88eb6fdc")
+	)
 	(text "Misorder:8743/9652"
 		(exclude_from_sim no)
 		(at 284.48 41.91 0)
@@ -15292,28 +15312,6 @@
 		)
 		(uuid "ffb87989-26cc-45fe-ab80-b2709ee64734")
 	)
-	(global_label "CBUST"
-		(shape input)
-		(at 227.33 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2fc84811-99d0-45b6-87ca-b7895dcbca42")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3628 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D[0..7]"
 		(shape input)
 		(at 35.56 116.84 180)
@@ -15327,50 +15325,6 @@
 		(uuid "31173859-6782-4eeb-8bc7-d5e664648528")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 25.9828 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{VSYNC}"
-		(shape input)
-		(at 227.33 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3456ac91-3411-448a-8cee-9f6c88a840aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3024 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "J2:~{HALT}"
-		(shape input)
-		(at 25.4 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "381f7115-9884-4a00-9805-9ef06935fe07")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.2181 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15415,28 +15369,6 @@
 		(uuid "70cc9f05-dc78-4795-9c36-c8f37b93cf7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 174.8753 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "J2:~{M1}"
-		(shape input)
-		(at 25.4 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8af28904-8870-4702-999b-83ad72f231d1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.972 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15534,72 +15466,6 @@
 			)
 		)
 	)
-	(global_label "CASOUT"
-		(shape input)
-		(at 227.33 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c42989ec-6bbf-40e3-ae89-cd8085bb34ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.5119 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "J2:~{RFSH}"
-		(shape input)
-		(at 25.4 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c452cf48-4130-4167-8646-371a1b601950")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.7343 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{HSYNC}"
-		(shape input)
-		(at 227.33 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d0b7bc4b-025f-4ca6-90c7-3a00d2a6efeb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.5443 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "J2:BA16"
 		(shape input)
 		(at 185.42 59.69 180)
@@ -15666,28 +15532,6 @@
 			)
 		)
 	)
-	(global_label "CHROMA"
-		(shape input)
-		(at 227.33 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f4dc1c0d-32fb-41bf-abe1-f60e6014e2ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.0562 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "J4:KD4"
 		(shape input)
 		(at 40.64 142.24 180)
@@ -15722,6 +15566,90 @@
 		)
 		(uuid "09aa6835-3caa-4c55-8683-b842429d3df1")
 	)
+	(hierarchical_label "J2:~{RFSH}"
+		(shape output)
+		(at 25.4 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e317af5-b43a-44ee-b855-9f3380a1b5a9")
+	)
+	(hierarchical_label "~{VSYNC}"
+		(shape output)
+		(at 227.33 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c4aa3ea-056f-442c-a534-257e46bf8d97")
+	)
+	(hierarchical_label "J2:~{M1}"
+		(shape output)
+		(at 25.4 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2119b565-cae4-4935-b7a8-3f28aafa3383")
+	)
+	(hierarchical_label "J2:~{HALT}"
+		(shape output)
+		(at 25.4 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2290f913-c05b-47bc-8c4e-385497c07fea")
+	)
+	(hierarchical_label "CASOUT"
+		(shape output)
+		(at 227.33 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cc1a4fb-6b04-4c41-8ae4-5ccdc9e4c348")
+	)
+	(hierarchical_label "CHROMA"
+		(shape output)
+		(at 227.33 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31939df5-ca28-404f-92a9-b4543d64ef46")
+	)
+	(hierarchical_label "~{HSYNC}"
+		(shape output)
+		(at 227.33 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69c83254-e85d-4c92-8f27-9c20bd599830")
+	)
 	(hierarchical_label "B"
 		(shape output)
 		(at 227.33 115.57 0)
@@ -15746,6 +15674,18 @@
 		)
 		(uuid "8604fcf6-8998-438b-a0e9-be0c8f9f9cf7")
 	)
+	(hierarchical_label "J2:RESET"
+		(shape input)
+		(at 25.4 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87da297b-5580-4039-a5e9-33d3adf877f8")
+	)
 	(hierarchical_label "A[0..15]"
 		(shape output)
 		(at 27.94 22.86 180)
@@ -15758,8 +15698,20 @@
 		)
 		(uuid "938b1556-4a91-4ea4-8594-3bf1e284c32f")
 	)
+	(hierarchical_label "CBUST"
+		(shape output)
+		(at 227.33 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ba2ca51-2242-44dc-9e8a-a71efda20b5c")
+	)
 	(hierarchical_label "J2:~{TOPBK}"
-		(shape input)
+		(shape output)
 		(at 187.96 107.95 180)
 		(fields_autoplaced yes)
 		(effects
