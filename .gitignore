@@ -3,3 +3,4 @@ Laser-500-backups
 
 fp-info-cache
 *.lck
+.DS_Store
